@@ -1,0 +1,22 @@
+{
+  "name": "best-deals",
+  "version": "1.0.0",
+  "description": "This function find the best place to buy some avocados. We like avocados because they are green. The supermarket has a set of different, slightly odd, offers for avocados",
+  "main": "bestDeal.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gideon877/best-deals.git"
+  },
+  "author": "Thabang Gideon Magaola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gideon877/best-deals/issues"
+  },
+  "homepage": "https://github.com/Gideon877/best-deals#readme"
+}

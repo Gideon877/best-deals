@@ -1,5 +1,16 @@
 const assert = require('assert');
-const bestDeal = require('../bestDeal');
+const checkDeals = require('../bestDeal')
+
+const cheapestDeal = require('../cheapDeal');
+const expensiveDeal = require('../expensiveDeal');
+const averageDeal = require('../averageDeal');
+
+describe('checkDeals function', function() {
+
+    it('returns the quantity and prices of the deals', function() {
+        assert.deepEqual(checkDeals("1 for R3, 2 for R7, 3 for R10, 5 for R14.50."));
+    });
+});
 
 describe('cheapestDeal  function', function() {
 

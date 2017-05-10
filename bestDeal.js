@@ -1,5 +1,5 @@
 var deals = [];
-module.exports = function checkDeals() {
+module.exports = function checkDeals(strNg) {
     var myArray = strNg.split(',');
 
     for (var i = 0; i < myArray.length; i++) {
@@ -22,14 +22,3 @@ module.exports = function checkDeals() {
     }
 
 }
-
-
-module.exports = function cheapestDeal() {
- return Math.min.apply(null, deals);
- }
-
-module.exports = function expensiveDeal() {
- return Math.max.apply(null, deals);
- }
-
-module.exports = function averageDeal() {}
